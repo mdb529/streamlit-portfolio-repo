@@ -461,9 +461,6 @@ else:
                 col2.image(detail_report_image, caption='TRIARQ STAR Schema')
 
             elif project.name == 'RCM Metric Monitoring':
-                col1,col2 = st.columns(2)
                 metric_monitoring_report_image = Image.open('assets/rcm_metric_monitoring.png')
-                monitoring_alert_image = Image.open('assets/metric_monitoring_alert.png')
 
-                col1.image(metric_monitoring_report_image, caption='TRIARQ Data Platform')
-                col2.image(monitoring_alert_image, caption='Metric Monitoring Alert Email')
+                st.image(metric_monitoring_report_image, caption='RCM Metric Monitoring Dashboard')
