@@ -1,15 +1,9 @@
-from re import L
 import streamlit as st
 from st_on_hover_tabs import on_hover_tabs
 from classes import Project
-from streamlit_autorefresh import st_autorefresh
-import streamlit_toggle as tog
 from PIL import Image
 import base64
 from pathlib import Path
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 
 # Run the autorefresh about every 2000 milliseconds (2 seconds) and stop
 # after it's been refreshed 100 times.
